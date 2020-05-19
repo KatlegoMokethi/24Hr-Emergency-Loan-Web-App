@@ -1,0 +1,67 @@
+﻿@model IEnumerable<Loan>
+
+@{
+    ViewData["Title"] = "Current Loans";
+}
+
+
+<div id="AdminBG">
+    <div class="container text-light">
+        <h1 class="display-4">Current Loans</h1>
+
+        @if (Model != null)
+        {
+            <table class="table text-light">
+                <thead class="bg-primary text-light">
+                    <tr>
+                        <th>
+                            @*@Html.DisplayNameFor(model => model.creditor)*@
+                            Creditor
+                        </th>
+                        <th>
+                            @*@Html.DisplayNameFor(model => model.amount)*@
+                            Amount
+                        </th>
+                        <th>
+                            @*@Html.DisplayNameFor(model => model.payDate)*@
+                            Payment Date
+                        </th>
+                        <th>
+                            @*@Html.DisplayNameFor(model => model.paid)*@
+                            Paid
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.creditor)
+                            </td>
+                            <td>
+                                @String.Format("{0:0.00}", item.amount);
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.payDate)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.paid)
+                            </td>
+                            <td>
+                                @*<a asp-action="Edit" asp-route-id="@item.id">Edit</a>*@
+                                @*<a asp-action="Details" asp-route-id="@item.id">Details</a>*@
+                                @*<a asp-action="Delete" asp-route-id="@item.id">Delete</a>*@
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <p>no outstanding loans</p>
+        }
+    </div>
+</div>

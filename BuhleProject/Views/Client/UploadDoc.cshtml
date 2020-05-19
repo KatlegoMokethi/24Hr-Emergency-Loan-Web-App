@@ -1,0 +1,12 @@
+﻿@model String
+@{
+    Layout = "_Layout_unreg";
+    ViewData["Title"] = "Upload Document";
+}
+
+<div id="bg" style="height: 100vh;">
+    <div class="container text-light">
+        <h1 class="mb-3">Upload @Model document</h1>
+        <partial name="_UploadDoc" model="@Model" />
+    </div>
+</div>

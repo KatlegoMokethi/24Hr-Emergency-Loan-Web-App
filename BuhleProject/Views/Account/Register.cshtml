@@ -1,0 +1,65 @@
+﻿@model RegisterViewModel
+
+<div id="background">
+    <div class="container text-light">
+        <h2 class="text-center display-4">Register</h2>
+        <div class="text-danger m-lg-4" asp-validation-summary="All"></div>
+        <form asp-action="Register" asp-controller="Account" method="post">
+
+            <div class="form-group m-lg-4">
+                <label asp-for="Name"></label>
+                <input asp-for="Name" class="form-control" />
+            </div>
+
+            <div class="form-group m-lg-4">
+                <label asp-for="Surname"></label>
+                <input asp-for="Surname" class="form-control" />
+            </div>
+
+            <div class="form-group m-lg-4">
+                <label asp-for="Institution"></label>
+                <input asp-for="Institution" class="form-control" />
+            </div>
+            @*<div class="form-group">
+                    <label asp-for="Role"></label>
+                    <input asp-for="Role" class="form-control" />
+                </div>*@
+            <div class="form-group m-lg-4">
+                <label asp-for="Email"> </label>
+                <input asp-for="Email" class="form-control" />
+            </div>
+
+            <div class="form-group m-lg-4">
+                <label asp-for="address"> </label>
+                <textarea asp-for="address" class="form-control" rows="5" id="comment"></textarea>
+            </div>
+
+            <div class="form-group m-lg-4">
+                <label asp-for="Phone"> </label>
+                <input asp-for="Phone" class="form-control" />
+            </div>
+            <div class="form-group m-lg-4">
+                <label asp-for="Password"></label>
+                <input asp-for="Password" class="form-control" />
+            </div>
+            <div class="form-group m-lg-4">
+                <label asp-for="ConfirmPassword"></label>
+                <input asp-for="ConfirmPassword" class="form-control" />
+            </div>
+
+            @*<div class="form-group m-lg-4">
+                    <label class="font-weight-bold" asp-for="Accepted"></label>
+                    <input asp-for="Accepted" class="form-check-inline" />
+                    <a asp-controller="Account" asp-action="ViewTerms">terms and conditions </a>
+                </div>*@
+            <div class="form-group">
+                <div class="col-md-2"></div>
+                <div class="col-md-10">
+                    <div class="g-recaptcha" data-sitekey="@ViewData["ReCaptchaKey"]"></div>
+                </div>
+            </div>
+            <button class="btn btn-primary mb-3" type="submit">Register</button>
+
+        </form>
+    </div>
+</div>

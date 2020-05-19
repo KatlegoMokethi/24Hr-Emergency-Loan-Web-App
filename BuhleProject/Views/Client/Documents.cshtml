@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Document>
+
+
+@{
+    ViewData["Title"] = "Documents";
+}
+<div id="bg">
+    <div class="container text-light">
+        <h1>Documents</h1>
+
+        <p><a class="btn btn-success" asp-action="UploadDoc" asp-controller="Client">Upload Documents</a></p>
+        <table class="table text-light">
+            <thead class="bg-primary text-light">
+                <tr>
+                    <th>
+                        Document type
+                    </th>
+                    <th>
+                        File name
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null)
+                {
+                    @foreach (var item in Model)
+                    {
+
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DocType)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.filename)
+                            </td>
+                            <td>
+                                <a asp-action="Details" asp-route-id="@item.id">Details</a> |
+                                <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
+                            </td>
+                        </tr>
+
+                    }
+
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

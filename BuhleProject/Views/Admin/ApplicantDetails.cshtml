@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Document>
+
+@{
+    ViewData["Title"] = "Applicant Details";
+}
+
+
+<div class="container">
+    <h1>Applicant Details</h1>
+
+    <table class="table">
+        <thead class="bg-primary text-light">
+            <tr>
+                <th>
+                    @*@Html.DisplayNameFor(model => model.DateUploaded)*@
+                    Date Uploaded
+                </th>
+                <th>
+                    @*@Html.DisplayNameFor(model => model.DocType)*@
+                    Document Type
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DateUploaded)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DocType)
+                    </td>
+                    <td>
+                        @*<a asp-action="Delete" asp-route-id="@item.id">Delete</a>*@
+                        <a asp-action="ViewDocument" asp-route-id="@item.id">View documnt</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

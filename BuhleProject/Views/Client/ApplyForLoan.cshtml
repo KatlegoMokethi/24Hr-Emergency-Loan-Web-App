@@ -1,0 +1,36 @@
+﻿@model LoanApplication
+
+@{
+    ViewData["Title"] = "Application";
+}
+<div id="bg" style="height: 100vh;">
+    <div class="container text-light">
+        <h1 class="pt-2 display-4">Loan Application</h1>
+        <hr class="bg-light"/>
+        <div class="row">
+            <div class="col-md-4">
+                <form asp-action="ApplyForLoan">
+                    <div class="text-danger m-lg-4" asp-validation-summary="All"></div>
+                    <div class="form-group">
+                        <label asp-for="estPayDate" class="control-label">Estimated Repayment Date</label>
+                        <input asp-for="estPayDate" class="form-control" style="width:280px;" />
+                        <span asp-validation-for="estPayDate" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="amount" class="control-label">Amount</label>
+                        <input asp-for="amount" class="form-control" style="width:80px;" />
+                        <span asp-validation-for="amount" class="text-danger"></span>
+                    </div>
+                    @*<div class="form-group form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" asp-for="approved" /> @Html.DisplayNameFor(model => model.approved)
+                            </label>
+                        </div>*@
+                    <div class="form-group">
+                        <input type="submit" value="Create" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

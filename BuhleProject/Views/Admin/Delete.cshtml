@@ -1,0 +1,56 @@
+﻿@model LoanApplication
+
+@{
+    ViewData["Title"] = "View";
+}
+
+<h1>View</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>LoanApplication</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.applicationDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.applicationDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.applicant)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.applicant)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.amount)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.amount)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.approved)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.approved)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.rejected)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.rejected)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.reason)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.reason)
+        </dd>
+    </dl>
+    
+    <form asp-action="View">
+        <input type="hidden" asp-for="id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+    </form>
+</div>

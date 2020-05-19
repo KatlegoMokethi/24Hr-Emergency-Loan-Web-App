@@ -1,0 +1,68 @@
+﻿
+@model IEnumerable<Document>
+@{
+    Layout = "_Layout_unreg";
+    ViewData["Title"] = "UploadDoc";
+}
+
+<h1>Upload all documents one by one and press upload one by one</h1>
+ 
+<p><a asp-action="UploadDoc" asp-controller="Client"></a></p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Document type
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{ var types = new string[] { "proof of registration", "ID", "student card",  "bank statement", "proof of address" };}
+        @if (Model != null)
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DocType)
+                    </td>
+                    <td>
+                        <form asp-controller="Client" asp-action="UploadDoc" method="post"
+                              enctype="multipart/form-data">
+
+                            <input type="file" name="file" />
+                            <button type="submit">Upload File</button>
+                        </form>
+                    </td>
+                    <td>
+                        @*<a asp-action="Edit" asp-route-id="@item.id">Edit</a>*@ |
+                        <a asp-action="Details" asp-route-id="@item.id">Details</a> |
+                        @*<a asp-action="Delete" asp-route-id="@item.id">Delete</a>*@
+                    </td>
+                </tr>
+            }
+
+        }
+        else
+        {
+            @foreach (var item in types)
+            {
+                <tr>
+                    <td>
+                        @item // doc title
+                    </td>
+                    <td>
+                        <form asp-controller="Client" asp-action="UploadDoc" asp-route-id="@item" method="post"
+                              enctype="multipart/form-data">
+
+                            <input type="file" name="file" />
+                            <button type="submit">Upload File</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+<a asp-action="Terms">NEXT STEP</a>

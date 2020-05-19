@@ -1,0 +1,70 @@
+﻿@model IEnumerable<LoanApplication>
+
+@{
+    ViewData["Title"] = "Applications";
+}
+
+<div id="AdminBG" style="height:100vh;">
+    <div class="container text-light">
+        <h1 class="display-4">Applications</h1>
+
+        @if (Model != null)
+        {
+            <table class="table text-light">
+                <thead class="bg-primary text-light">
+                    <tr>
+                        <th>
+                            @*@Html.DisplayNameFor(model => model.applicationDate)*@
+                            Application Date
+                        </th>
+                        <th>
+                            @*@Html.DisplayNameFor(model => model.applicant)*@
+                            Applicant
+                        </th>
+                        <th>
+                            @*@Html.DisplayNameFor(model => model.amount)*@
+                            Amount
+                        </th>
+                        <th>
+                            @*@Html.DisplayNameFor(model => model.approved)*@
+                            Approved
+                        </th>
+                        <th>
+                            @*@Html.DisplayNameFor(model => model.estPayDate)*@
+                            Estimated repayment date
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.applicationDate)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.applicant)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.amount)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.approved)
+                            </td>
+                            <td>
+                                @item.estPayDate.ToShortDateString()
+                            </td>
+                            <td>
+                                @*<a asp-action="Edit" asp-route-id="@item.id">Edit</a> |*@
+                                <a asp-action="ApplicantDetails" asp-route-id="@item.applicant">View documents</a> |
+                                <a asp-action="Details" asp-route-id="@item.id">Approve/Reject</a>
+                                @*<a asp-action="Delete" asp-route-id="@item.id">Delete</a>*@
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+</div>

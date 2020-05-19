@@ -1,0 +1,26 @@
+﻿@model User
+@{
+    Layout = "_Layout_unreg";
+    ViewData["Title"] = "Terms";
+}
+
+<h1>Terms</h1>
+
+<div class="border-dark m-4">
+    <h1> note the following from the terms and conditions</h1>
+    <p> 35% interest is charged on the borrowed amount</p>
+    <p> a borrower has 29 to 31 days to repay from the date of borrowing</p>
+    <p>If the borrower does not pay within 31 days of the following month, he/she shall be subject to a late payment charge of 10% of the amount they are owing, and if 15 days pass without them paying, then another 10% will be added.</p>
+</div>
+<form asp-action="Terms" asp-controller="Client" method="post">
+    <div class="text-danger m-lg-4" asp-validation-summary="All"></div>
+
+    <div class="form-group m-lg-4">
+        <label class="font-weight-bold" asp-for="Accepted"></label>
+        <input asp-for="Accepted" class="form-check-inline" />
+        <a asp-controller="Client" asp-action="ViewTerms">terms and conditions </a>
+    </div>
+
+    <button class="btn btn-primary" type="submit">Finish</button>
+
+</form>

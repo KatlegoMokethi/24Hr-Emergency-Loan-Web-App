@@ -1,0 +1,93 @@
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\bin\Release\netcoreapp2.2\appsettings.Development.json
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\bin\Release\netcoreapp2.2\appsettings.json
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\bin\Release\netcoreapp2.2\libman.json
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\bin\Release\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\bin\Release\netcoreapp2.2\BuhleProject.deps.json
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\bin\Release\netcoreapp2.2\BuhleProject.runtimeconfig.json
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\bin\Release\netcoreapp2.2\BuhleProject.runtimeconfig.dev.json
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\bin\Release\netcoreapp2.2\BuhleProject.dll
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\bin\Release\netcoreapp2.2\BuhleProject.pdb
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\bin\Release\netcoreapp2.2\BuhleProject.Views.dll
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\bin\Release\netcoreapp2.2\BuhleProject.Views.pdb
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\BuhleProject.csprojAssemblyReference.cache
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\BuhleProject.RazorAssemblyInfo.cache
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\BuhleProject.RazorAssemblyInfo.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\BuhleProject.AssemblyInfoInputs.cache
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\BuhleProject.AssemblyInfo.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\BuhleProject.TagHelpers.input.cache
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\BuhleProject.TagHelpers.output.cache
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\BuhleProject.RazorCoreGenerate.cache
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Account\Terms.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Admin\Applications.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Admin\CurrentLoans.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Client\ApplyForLoan.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Client\Documents.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Client\Loans.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\Razor\_ViewStart.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\BuhleProject.RazorTargetAssemblyInfo.cache
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\BuhleProject.RazorTargetAssemblyInfo.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\BuhleProject.Views.pdb
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\BuhleProject.dll
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\BuhleProject.pdb
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\BuhleProject.csproj.CopyComplete
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Admin\ApplicantDetails.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Admin\Delete.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Admin\Details.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Client\Documents2.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Client\UploadDoc.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Client\Delete.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Payment\Payment.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\bin\Release\netcoreapp2.2\appsettings.Development.json
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\bin\Release\netcoreapp2.2\libman.json
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\bin\Release\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\bin\Release\netcoreapp2.2\appsettings.json
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\bin\Release\netcoreapp2.2\BuhleProject.deps.json
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\bin\Release\netcoreapp2.2\BuhleProject.runtimeconfig.json
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\bin\Release\netcoreapp2.2\BuhleProject.runtimeconfig.dev.json
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\bin\Release\netcoreapp2.2\BuhleProject.dll
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\bin\Release\netcoreapp2.2\BuhleProject.pdb
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\bin\Release\netcoreapp2.2\BuhleProject.Views.dll
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\bin\Release\netcoreapp2.2\BuhleProject.Views.pdb
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\BuhleProject.csprojAssemblyReference.cache
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\BuhleProject.RazorAssemblyInfo.cache
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\BuhleProject.RazorAssemblyInfo.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\BuhleProject.AssemblyInfoInputs.cache
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\BuhleProject.AssemblyInfo.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\BuhleProject.TagHelpers.input.cache
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\BuhleProject.TagHelpers.output.cache
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\BuhleProject.RazorCoreGenerate.cache
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Account\Terms.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Admin\ApplicantDetails.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Admin\Applications.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Admin\CurrentLoans.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Admin\Delete.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Admin\Details.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Client\ApplyForLoan.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Client\Delete.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Client\Documents.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Client\Documents2.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Client\Loans.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Client\UploadDoc.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Payment\Payment.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\Razor\_ViewStart.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\BuhleProject.RazorTargetAssemblyInfo.cache
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\BuhleProject.RazorTargetAssemblyInfo.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\BuhleProject.Views.pdb
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\BuhleProject.dll
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\BuhleProject.pdb
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\BuhleProject.csproj.CopyComplete
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Client\Terms.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Shared\_Layout_unreg.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Admin\openPic.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Client\UploadDoc2.cshtml.g.cs
+C:\Users\Melusi Mgwenya\source\repos\BuhleProject\recatcha test\BuhleProject\obj\Release\netcoreapp2.2\Razor\Views\Shared\_UploadDoc.cshtml.g.cs
